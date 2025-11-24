@@ -25,7 +25,7 @@ function Exercise() {
         <h1 className="text-3xl font-bold text-center mb-6 text-special-lightRed">
           Post Cards
         </h1>
-        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-6 max-w-full mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-full mx-auto">
           {posts.map((post) => (
             <PostCard key={post.id} {...post} />
           ))}
